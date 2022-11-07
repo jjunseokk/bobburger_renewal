@@ -1,0 +1,81 @@
+.first-box ,.second-box{
+    display: flex;
+    justify-content: space-around;
+}
+.circle-area{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.circle-icon , .circle-icon-black{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 6px solid #FFC409;
+    color: #FFC409;
+    font-size: 1.5em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.circle-icon-black{
+    border: 6px solid #222;
+    font-size: 1.5em;
+    color: #222;
+}
+.circle-icon-black img{
+    width: 100%;
+}
+.text-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text-icon{
+    text-align: center;
+    font-size: 8em;
+    border: 6px solid #222;
+    border-radius: 50%;
+
+    width: 200px;
+    height: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 20px;
+}
+
+.text{
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+table{
+    width: 500px;
+    /* border: 1px solid #ccc; */
+    padding: 25px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+td{
+    border: none;
+}
+.input-style{
+    width: 300px;
+}
+
+.one-select{
+    width: 150px;
+    margin-right: 5px;
+}
+#modal{
+    width: 150px;
+}

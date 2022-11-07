@@ -1,0 +1,94 @@
+/* ----------------Navbar.js------------------------------------- */
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    position: relative;
+    font-family: 'Jua', sans-serif;
+
+}
+.navbar{
+    width: 100vw;
+    height: 150px;
+    background-color: white;
+    transition: all 0.5s;
+    margin-bottom: 100px;
+}
+.navbar.active{
+    background-color: rgba(255, 196, 9, 0.4);
+    height: 300px;
+}
+.logo{
+    position: absolute;
+    top: 20px;
+    left: 2%;
+    width: 100px;
+}
+.snsBtn{
+    position: absolute;
+    top: 55px;
+    right: 10%;
+    width: 200px;
+}
+.snsBtn img{
+    width: 40px;
+    margin-right: 10px;
+    border-radius: 100%;
+
+    cursor: pointer;
+}
+.snsBtn img:hover{
+    background-color: #FFC409;
+}
+.topMenu{
+    position: absolute;
+    top: 20px;
+    left: 400px;
+    height: 50px;
+    width: 900px;
+}
+.mainNav{
+    float: left;
+}
+.mainNav > .link-style{
+    float: left;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    position: relative;
+    transition: all 0.4s;
+    padding: 35px 0px;
+
+    font-size: 25px;
+    font-family: 'Jua', sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    z-index: 1;
+    transition: all 0.5s;
+}
+
+.mainNav > .link-style:hover{
+    height: 280px;
+    background-color: white;
+}
+.subMenu{
+    width: 100%;
+    position: absolute;
+    top: 40px;
+    left: -15px;
+    opacity: 0;
+    transition: all 0.5s ease-in;
+}
+.subMenu.active{
+    top: 100px;
+    opacity: 1;
+}
+.subMenu li{
+    width: 100%;
+    text-align: center;
+    padding: 5px 0px;
+}

@@ -1,0 +1,24 @@
+.Loadmap-container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    opacity: 1;
+
+}
+
+.Loadmap-text{
+    width: 50%;
+}
+
+.Loadmap-btn{
+    width: 180px;
+    height: 55px;
+    margin-right: 10px;
+    border: 1px solid #222;
+    background-color: transparent;
+    transition: 0.5s;
+}
+.Loadmap-btn:hover{
+    background-color: #FFC409;
+    transform: scale(1.1);
+}

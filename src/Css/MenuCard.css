@@ -1,0 +1,49 @@
+
+.card-area{
+    height: 500px;
+    margin-top: 30px;
+    text-align: center;
+    box-shadow: 5px 5px 10px #ccc;
+    font-family: 'Jua', sans-serif;
+    position: relative;
+    transition: all 1s;
+}
+.card-area.active{
+    transform: rotateY(-180deg);
+}
+.cardText{
+    opacity: 1;
+    transition: all 0.5s ease-out;
+}
+.cardText.active{
+    opacity: 0;
+}
+.imgStyle{
+    width: 100%;
+}
+.titleFont{
+    font-size: 30px;
+}
+.subTitleFont{
+    font-size: 13px;
+}
+.bestFont{
+    font-size: 15px;
+    color: red;
+}
+.hover-card{
+    width: 100%;
+    height: 100%;
+    text-align: start;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 20px;
+    opacity: 0;
+    transition: all 0.5s ease-in;
+}
+.hover-card.active{
+    background-color: rgba(0,0,0,0.3);
+    transform: rotateY(-180deg);
+    opacity: 1;
+}

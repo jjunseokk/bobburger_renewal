@@ -1,0 +1,48 @@
+.Founded-container{
+    text-align: center;
+    padding-bottom: 50px;
+    display: flex;
+
+    font-size: 1em;
+}
+.Founded-first-div{
+    width: 100%;
+    padding: 15px;
+    color: #444;
+}
+.Founded-table{
+    width: 100%;
+}
+.Founded-tr-style{
+    height: 60px;
+    background-color: #222;
+    color: #eee;
+}
+td{
+    border: 1px solid #aaa;
+    padding: 10px 0px;
+}
+.second-style td{
+   width: 10%;
+}
+.table-style{
+    background-color: #ddd;
+    color: #222;
+}
+.red-color{
+    color: red;
+}
+.bottom-color{
+    background-color:  #222;
+    color: #eee;
+}
+#none-padding{
+    padding: 0;
+}
+#none-padding tr{
+    height: 58px;
+}
+#none-border{
+    border: none;
+    width: 10%;
+}
