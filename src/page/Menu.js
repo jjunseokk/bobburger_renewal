@@ -6,7 +6,7 @@ const Menu = () => {
   
   const [productList, setProductList] = useState([]);
   const getProducts= async() => {
-    let url = `http://localhost:5001/products`;
+    let url = `https://my-json-server.typicode.com/jjunseokk/bobburger_renewal/products`;
     let respanse = await fetch(url);
     let data = await respanse.json();
     setProductList(data);
