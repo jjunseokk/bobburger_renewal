@@ -2,7 +2,7 @@
     "products":[
         {
             "id":0,
-            "img":"http://www.bongousse.net/img/menu/img_burger01.png",
+            "img":"/img/img_burger01.png",
             "title":"봉구스",
             "subTitle" : "기본이자 대표메뉴",
             "price":3000,
@@ -17,7 +17,7 @@
         },
         {
             "id":1,
-            "img":"http://www.bongousse.net/img/menu/img_burger02.png",
+            "img":"/img/img_burger02.png",
             "title":"햄",
             "subTitle" : "잘 구워진 한 조각 햄",
             "price":3800,
@@ -33,7 +33,7 @@
         },
         {
             "id":2,
-            "img":"http://www.bongousse.net/img/menu/img_burger03.png",
+            "img":"/img/img_burger03.png",
             "title":"치즈",
             "subTitle" : "노오란 체다치즈가 쏘옥",
             "price":3500,
@@ -49,7 +49,7 @@
         },
         {
             "id":3,
-            "img":"http://www.bongousse.net/img/menu/img_burger04.png",
+            "img":"/img/img_burger04.png",
             "title":"햄치즈",
             "subTitle" : "봉구스의 인기만점 메뉴",
             "price":4300,
@@ -65,7 +65,7 @@
         },
         {
             "id":4,
-            "img":"http://www.bongousse.net/img/menu/img_burger05.png",
+            "img":"/img/img_burger05.png",
             "title":"제육",
             "subTitle" : "제육볶음과의 환상적인 만남",
             "price":4000,
@@ -81,7 +81,7 @@
         },
         {
             "id":5,
-            "img":"http://www.bongousse.net/img/menu/img_burger06.png",
+            "img":"/img/img_burger06.png",
             "title":"치즈제육",
             "subTitle" : "제육볶음에 고소함 더하기",
             "price":4500,
@@ -97,7 +97,7 @@
         },
         {
             "id":6,
-            "img":"http://www.bongousse.net/img/menu/img_burger07.png",
+            "img":"/img/img_burger07.png",
             "title":"김치제육",
             "subTitle" : "제육볶음에 깔끔한 뒷맛 더하기",
             "price":4800,
@@ -113,7 +113,7 @@
         },
         {
             "id":7,
-            "img":"http://www.bongousse.net/img/menu/img_burger08.png",
+            "img":"/img/img_burger08.png",
             "title":"닭갈비",
             "subTitle" : "닭 가슴살로 만든 매운 닭갈비",
             "price":3500,
@@ -129,7 +129,7 @@
         },
         {
             "id":8,
-            "img":"http://www.bongousse.net/img/menu/img_burger09.png",
+            "img":"/img/img_burger09.png",
             "title":"치즈닭갈비",
             "subTitle" : "매운 닭갈비에 체다치즈",
             "price":4000,
@@ -145,7 +145,7 @@
         },
         {
             "id":9,
-            "img":"http://www.bongousse.net/img/menu/img_burger10.png",
+            "img":"/img/img_burger10.png",
             "title":"소불고기",
             "subTitle" : "달콤한 소불고기가 가득",
             "price":5000,
@@ -161,7 +161,7 @@
         },
         {
             "id":10,
-            "img":"http://www.bongousse.net/img/menu/img_burger11.png",
+            "img":"/img/img_burger11.png",
             "title":"김치불고기",
             "subTitle" : "달콤한 소불고기와 새콤한 김치",
             "price":5800,

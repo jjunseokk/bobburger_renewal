@@ -16,7 +16,7 @@ const MenuCard = ({item}) => {
     <div>
         <div className={showCard? "card-area active" : "card-area"}onMouseOver={show} onMouseLeave={notShow}>
             <div className={showCard? "cardText active" : "cardText"}>
-              <img className='imgStyle' src={item?.img} alt=""/>
+              <img className='imgStyle' src={process.env.PUBLIC_URL + item?.img} alt=""/>
               <div className='titleFont'>{item?.title}</div>
               <div className='subTitleFont'>{item?.subTitle}</div>
               <div>{item?.text}</div>

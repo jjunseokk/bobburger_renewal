@@ -92,8 +92,8 @@ const Section = () => {
       </div>
       <div className='section2'>
         <div className='imgArea'>
-          <img className={ImgAnimation ? "img1 active" : "img1"} src="https://www.bongousse.net/img/menu/img_burger01.png" alt="" />
-          <img className={ImgAnimation ? "img2 active" : "img2"} src="https://www.bongousse.net/img/menu/img_burger04.png" alt="" />
+          <img className={ImgAnimation ? "img1 active" : "img1"} src={process.env.PUBLIC_URL + "/img/img_burger01.png"} alt="" />
+          <img className={ImgAnimation ? "img2 active" : "img2"} src={process.env.PUBLIC_URL + "/img/img_burger04.png"} alt="" />
         </div>
         <div className={ImgAnimation ? "textArea active" : "textArea"}>
           <h1>바쁜 일상에 <br /> <span>베스트 메뉴 하나</span></h1>
