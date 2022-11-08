@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import { Container } from 'react-bootstrap';
 import Map from '../component/Map';
 

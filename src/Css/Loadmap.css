@@ -35,9 +35,11 @@
     }
     .map-area{
         width: 400px;
-
         margin: 0 auto;
-        /* border: 1px solid red; */
         text-align: center;
+        z-index: -100;
+    }
+    #map{
+        z-index: -100;
     }
 }

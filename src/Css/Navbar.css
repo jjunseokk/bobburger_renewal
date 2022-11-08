@@ -125,6 +125,7 @@ body{
         background-color: #FFC409;
         /* display: none; */
         transition: all 1s;
+        
     }
     .mobile-menu.active{
         z-index: 1;
