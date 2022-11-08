@@ -39,7 +39,7 @@
     width: 23%;
     float: left;
     margin: 10px 0px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .gallery_list_box{
     height: 250px;
