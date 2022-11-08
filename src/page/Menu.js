@@ -7,7 +7,7 @@ const Menu = () => {
   const [productList, setProductList] = useState();
   const getProducts= async() => {
     let url = `https://my-json-server.typicode.com/jjunseokk/bobburger_renewal/products`;
-    let respanse = await fetch(url);
+    let respanse = await fetch(url,{maxContentLength : 100000});
     let data = await respanse.json();
     setProductList(data);
     }
