@@ -25,7 +25,7 @@ const Menu = () => {
         </div>
         <Row>
           {productList.map((menu)=>(
-            <Col lg={6}>
+            <Col sm={6} lg={3}>
               <MenuCard item={menu}/>
             </Col>
           ))}
