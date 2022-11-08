@@ -102,6 +102,61 @@
     }
 }
 
+@media screen and (max-width : 768px) {
+    .first-box ,.second-box{
+        height: 150px;
+    }
+    .circle-area{
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .circle-icon , .circle-icon-black{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 3px solid #FFC409;
+        color: #FFC409;
+        font-size: 1em;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .circle-icon-black{
+        border: 3px solid #222;
+        font-size: 1em;
+        color: #222;
+    }
+    .circle-area p{
+        font-size: 0.5em;
+    }
+    .StartUp-table{
+        width: 350px;
+    }
+    .StartUp-table tr{
+        /* border: 1px solid red; */
+    }
+    .StartUp-table td{
+        /* border: 1px solid red; */
+    }
+    .StartUp-table th{
+        /* display: inline-block; */
+        /* border: 1px solid red; */
+    }
+    .StartUp-table input{
+        width: 200px;
+    }
+    .StartUp-table textarea{
+        width: 200px;
+    }
+}
+
 @media screen and (max-width : 425px) {
     .first-box ,.second-box{
         height: 150px;

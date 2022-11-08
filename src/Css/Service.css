@@ -35,7 +35,24 @@
 
     margin-bottom: 30px;
 }
+@media screen and (max-width : 768px) {
+    .service-container{
+        display: block;
+    }
 
+    
+    .service-box{
+        border: 1px solid #ccc;
+        width: 100%;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    
+        margin-bottom: 50px;
+    }
+}
 
 @media screen and (max-width : 425px) {
     .service-container{
