@@ -5,6 +5,10 @@
     flex-direction: column;
 }
 
+.compliment-container td{
+    padding: 10px 0px;
+}
+
 .comliment-button{
     background: none;
     width: 200px;
