@@ -32,15 +32,15 @@ const Footer = () => {
                 </div>
             </div>
             <div className='second-area'>
-                <FooterBox img={process.env.PUBLIC_URL + "/footer-img08.gif"} 
+                <FooterBox img={process.env.PUBLIC_URL + "/img/footer-img08.gif"} 
                 text="매일경제 주최 2015" text2="100대 프렌차이즈 선정"/>
-                <FooterBox img={process.env.PUBLIC_URL + "/footer-img01.gif"} 
+                <FooterBox img={process.env.PUBLIC_URL + "/img/footer-img01.gif"} 
                 text="2013 대한민국 대표" text2="우수기업 인증"/>
-                <FooterBox img={process.env.PUBLIC_URL + "/footer-img02.gif"} 
+                <FooterBox img={process.env.PUBLIC_URL + "/img/footer-img02.gif"} 
                 text="2014" text2="우수프랜차이즈"/>
-                <FooterBox img={process.env.PUBLIC_URL + "/footer-img04.gif"} 
+                <FooterBox img={process.env.PUBLIC_URL + "/img/footer-img04.gif"} 
                 text="소상공인진흥공단" text2="동반성장 우수기업 선정"/>
-                <FooterBox img={process.env.PUBLIC_URL + "/footer-img07.gif"} 
+                <FooterBox img={process.env.PUBLIC_URL + "/img/footer-img07.gif"} 
                 text="특허청" text2="주먹밥 배달업등 15건"/>
             </div> 
         </Container>
