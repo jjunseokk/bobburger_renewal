@@ -23,8 +23,8 @@ const Map = () => {
 
 
     return (
-        <div>
-            <div id="map" style={{ width: "500px", height: "400px" }}></div>
+        <div className='map-area'>
+            <div id="map" style={{ width: "400px", height: "400px" }}></div>
         </div>
     )
 }
