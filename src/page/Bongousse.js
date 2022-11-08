@@ -30,24 +30,24 @@ const Bongousse = () => {
         </div>
       </div>
       <div className='bongousse-area'>
-        <img src="http://www.bongousse.net/img/company/bongousse_img01.gif" alt="" />
+        <img src={process.env.PUBLIC_URL +"/img/bongousee_img01.gif"} alt="" />
         <p><strong>봉구스(Bongousse)</strong>는 맛있는 한입거리라는 뜻의 프랑스어입니다. <br /><br />
           봉구스밥버거는 어머니의 정성과 신세대의 입맛에 어우러진 '신개념 주먹밥'입니다<br />
           '영양'과 '맛'뿐만 아니라 '저렴한 가격'과 '든든함'으로 맛있는 한 끼를 제공하고자 합니다.</p>
       </div>
       <div className='bongousse-area'>
-        <img src="http://www.bongousse.net/img/company/bongousse_img02.gif" alt="" />
+        <img src={process.env.PUBLIC_URL +"/img/bongousse_img02.gif"} alt="" />
         <p><strong>‘밥버거’</strong>라는 명칭은 글로벌화를 위해 만들어졌습니다. <br /><br />
           봉구스에서 만든 ‘밥버거’라는 명칭은 한국의 주먹밥에 국한되지 않고, 세계로 나아가기 위해 만들어진 단어입니다. 처음 밥버거라는 명칭을<br />
           사용하기 시작했을 때는 ‘햄버거에 밥이?’ 혹은 ‘밥으로 햄버거를?’ 이라며 의아해 하거나 헷갈려 하시는 손님들이 많았습니다.</p>
       </div>
       <div className='bongousse-area'>
-        <img src="http://www.bongousse.net/img/company/bongousse_img03.gif" alt="" />
+        <img src={process.env.PUBLIC_URL +"/img/bongousse_img03.gif"} alt="" />
         <p><strong>밥버거</strong>는 주먹밥입니다. <br /><br />
           봉구스 밥버거는 정확한 정량으로는 밥 한 공기 반이 넘는 양으로 하나만 드셔도 충분히 배가 부릅니다.</p>
       </div>
       <div className='bongousse-area'>
-        <img src="http://www.bongousse.net/img/company/bongousse_img04.gif" alt="" />
+        <img src={process.env.PUBLIC_URL +"/img/bongousse_img04.gif"} alt="" />
         <p><strong>많은 시행착오 끝에</strong> 만들어진 건강하고 맛좋은 밥버거입니다. <br /><br />
           봉구스밥버거는 처음에 시작하였을 때부터 가게를 내고 안정적으로 정착하기 까지 많은 시행착오를 거치며 맛이 더욱더 향상되었습니다.<br />
           그 이유는 차별화된 봉구네만의 요리법과 매일매일 공수하는 신선한 재료로 그날그날의 밥버거를 만들기 때문입니다. <br />
