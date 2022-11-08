@@ -24,7 +24,7 @@ const Menu = () => {
           <img className='topigImg' src="http://www.bongousse.net/img/menu/newimg/menu_topping_guide-20220901.png" alt=""/>
         </div>
         <Row>
-          {productList.map((menu)=>(
+          {productList.products.map((menu)=>(
             <Col lg={3}>
               <MenuCard item={menu}/>
             </Col>
