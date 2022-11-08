@@ -144,7 +144,7 @@ const StartUpInquiry = () => {
                         text="STEP9. 지속적인 관리" />
                     <div className='circle-area'>
                         <div className='circle-icon-black'>
-                            <img src="http://www.bongousse.net/img/menu/img_burger01.png" alt="" />
+                            <img src={process.env.PUBLIC_URL + "/img/img_burger01.png"} alt="" />
                         </div>
                         <p>Bongousse</p>
                     </div>
