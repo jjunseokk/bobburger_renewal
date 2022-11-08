@@ -21,7 +21,7 @@ const Menu = () => {
     <div>
       <Container className='menu-container'>
         <div className='imgArea'>
-          <img className='topigImg' src="http://www.bongousse.net/img/menu/newimg/menu_topping_guide-20220901.png" alt=""/>
+          <img className='topigImg' src={process.env.PUBLIC_URL + "/img/menu_topping_guide-20220901.png"} alt=""/>
         </div>
         <Row>
           {productList.map((menu)=>(
