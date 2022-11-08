@@ -4,14 +4,8 @@ import GalleryBox from '../component/GalleryBox';
 
 const Bongousse = () => {
 
-  const [showLoad, setShowLoad] = useState(false);
-
-  const showArea = () =>{
-    setShowLoad(true);
-  }
-
   return (
-    <Container className={showLoad? 'bongousse-container active' : 'bongousse-container'} onLoad={showArea}>
+    <Container className='bongousse-container'>
       <div className='introduce-area'>
         <h3>시간 없는 일상! 든든한 한끼</h3>
 
