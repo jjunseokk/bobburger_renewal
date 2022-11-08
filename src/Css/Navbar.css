@@ -17,6 +17,8 @@ body{
     background-color: white;
     transition: all 0.5s;
     margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
 }
 .navbar.active{
     background-color: rgba(255, 196, 9, 0.4);
@@ -27,12 +29,14 @@ body{
     top: 20px;
     left: 2%;
     width: 100px;
+    z-index: 100;
 }
 .snsBtn{
     position: absolute;
     top: 55px;
-    right: 10%;
+    right: 22px;
     width: 200px;
+    /* border: 1px solid red; */
 }
 .snsBtn img{
     width: 40px;
@@ -50,9 +54,6 @@ body{
     left: 400px;
     height: 50px;
     width: 900px;
-}
-.mainNav{
-    float: left;
 }
 .mainNav > .link-style{
     float: left;
@@ -91,4 +92,115 @@ body{
     width: 100%;
     text-align: center;
     padding: 5px 0px;
+}
+.mobile-menu{
+   opacity: 0;
+}
+.faBars, .faX{
+    display: none;
+}
+
+
+
+@media screen and (max-width : 1440px) {
+    .topMenu{
+        position: absolute;
+        top: 20px;
+        left: 200px;
+        height: 50px;
+        width: 900px;
+    }
+}
+
+@media screen and (max-width : 1024px){
+    .topMenu{
+       display: none;
+    }
+    .mobile-menu{
+        position: absolute;
+        top: -2000px;
+        right: 0px;
+        width: 400px;
+        height: 2430px;
+        background-color: #FFC409;
+        /* display: none; */
+        transition: all 1s;
+    }
+    .mobile-menu.active{
+        z-index: 1;
+        opacity: 1;
+        top: 0px;
+
+    }
+    .faX{
+        position: absolute;
+        font-size: 30px;
+        right: 100px;
+        /* display: block; */
+        z-index: 2;
+        cursor: pointer;
+        opacity: 0;
+        transition: all 1s;
+    }
+    .faX.active{
+        position: absolute;
+        font-size: 30px;
+        right: 100px;
+        display: block;
+        z-index: 2;
+        opacity: 1;
+    }
+    .faBars{
+        display: inline-block;
+        font-size: 30px;
+        cursor: pointer;
+        transition: 0.1s;
+
+    }
+    .faBars.active{
+        opacity: 0;
+    }
+    .mobile-menu-ul{
+        padding: 150px 50px;
+    }
+    .mobile-menu-li{
+        /* border: 1px solid red; */
+        font-size: 30px;
+        padding: 5px;
+        cursor: pointer;
+    }
+    .mobile-submenu-ul{
+        display: none;
+    }
+    .mobile-submenu-ul.active{
+        display: block;
+    }
+}
+
+@media screen and (max-width : 425px) {
+    .snsBtn{
+        position: absolute;
+        top: 55px;
+        right: 0px;
+        width: 150px;
+        /* border: 1px solid red; */
+    }
+    .faX{
+        position: absolute;
+        font-size: 30px;
+        right: 30px;
+        /* display: block; */
+        z-index: 2;
+        cursor: pointer;
+        opacity: 0;
+        transition: all 1s;
+    }
+    .faX.active{
+        position: absolute;
+        font-size: 30px;
+        right: 30px;
+        display: block;
+        z-index: 2;
+        opacity: 1;
+    }
 }

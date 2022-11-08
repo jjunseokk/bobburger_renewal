@@ -1,0 +1,13 @@
+.compliment-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.comliment-button{
+    background: none;
+    width: 200px;
+    height: 50px;
+    margin-bottom: 100px;
+}

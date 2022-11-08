@@ -7,3 +7,10 @@
 .topigImg{
     width: 50%;
 }
+
+
+@media screen and (max-width : 1024px) {
+    .topigImg{
+        width: 100%;
+    }
+}

@@ -7,7 +7,7 @@ const Bongousse = () => {
 
 
   return (
-    <Container className='bongousse-container'>
+    <Container  className='bongousse-container'>
       <div className='introduce-area'>
         <h3>시간 없는 일상! 든든한 한끼</h3>
 
@@ -30,7 +30,7 @@ const Bongousse = () => {
         </div>
       </div>
       <div className='bongousse-area'>
-        <img src={process.env.PUBLIC_URL +"/img/bongousee_img01.gif"} alt="" />
+        <img src={process.env.PUBLIC_URL +"/img/bongousse_img01.gif"} alt="" />
         <p><strong>봉구스(Bongousse)</strong>는 맛있는 한입거리라는 뜻의 프랑스어입니다. <br /><br />
           봉구스밥버거는 어머니의 정성과 신세대의 입맛에 어우러진 '신개념 주먹밥'입니다<br />
           '영양'과 '맛'뿐만 아니라 '저렴한 가격'과 '든든함'으로 맛있는 한 끼를 제공하고자 합니다.</p>

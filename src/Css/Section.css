@@ -7,12 +7,17 @@
 .section1{
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 .section1-text{
     margin-top: 100px;
 }
 .section1-text h1{
     margin-bottom: 50px;
+}
+.section-video{
+    width: 1000px;
+    height: 500px;
 }
 .section2{
     background-color: #FFC409;
@@ -97,4 +102,81 @@
   .topBtn.active {
     z-index: 10; 
     opacity: 1; 
+  }
+
+
+  @media screen and (max-width : 1024px){
+    .section1{
+        z-index: -1;
+    }
+    .video-area{
+        width: 400px;
+        height: 300px;
+    }
+    .section-video{
+        width: 100%;
+        height: 300px;
+    }
+
+    .section2 .img1, .img2{
+        position: absolute;
+        top: 200px;
+        width: 200px;
+    }
+    .section2 .img1.active{
+        left: 10%;
+    }
+    .section2 .img2{
+        top: 300px;
+    }
+    .section2 .img2.active{
+        left: 15%;
+    }
+    .section2 .textArea{
+        right: 15%;
+    }
+  }
+
+  @media screen and (max-width : 425px) {
+    .section1, .section2, .section3{
+        width: 100vw;
+        height: 750px;
+        background-color: white;
+        position: relative;
+    }
+    .section2{
+        background-color: #FFC409;
+    }
+       
+    .video-area{
+        width: 100vw;
+        height: 300px;
+    }
+    .section1{
+        display: block;
+        text-align: center;
+        padding: 20px 0px;
+    }
+    .section2 .img1, .img2{
+        position: absolute;
+        top: 100px;
+        width: 200px;
+    }
+    .section2 .img1.active{
+        left: 25%;
+    }
+    .section2 .img2{
+        top: 170px;
+    }
+    .section2 .img2.active{
+        left: 35%;
+    }
+    .section2 .textArea{
+        position: absolute;
+        top: 400px;
+        right: 10%;
+        font-family: 'Jua', sans-serif;
+        opacity: 0;
+        transition: all 1s ease-in;
+    }
   }

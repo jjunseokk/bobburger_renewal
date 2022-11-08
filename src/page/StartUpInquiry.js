@@ -2,6 +2,7 @@ import { faBookOpenReader, faBullhorn, faCamera, faClipboard, faClock, faCubes, 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React, { useState } from 'react'
 import { Container } from 'react-bootstrap'
+import { useNavigate } from 'react-router-dom'
 import CircleArea from '../component/CircleArea'
 
 
@@ -115,33 +116,34 @@ const StartUpInquiry = () => {
             
         } 
     }
-
-
+    const show = () =>{
+        alert("문의가 완료되었습니다.")
+    }
 
     return (
         <Container>
             <div className='img-box'>
                 <div className='first-box'>
                     <CircleArea icon={faPhone}
-                        text="STEP1. 가맹 상담 및 사업성 검토" />
+                        text="STEP1. 가맹 상담" />
                     <CircleArea icon={faLocationDot}
-                        text="STEP2. 입지선정 및 상권분석" />
+                        text="STEP2. 입지선정" />
                     <CircleArea icon={faPenToSquare}
                         text="STEP3. 가맹계약" />
                     <CircleArea icon={faClipboard}
-                        text="STEP4. 점포계약 및 인허가" />
+                        text="STEP4. 점포계약" />
                     <CircleArea icon={faCubes}
-                        text="STEP5. 인테리어 및 설비" />
+                        text="STEP5. 인테리어" />
                 </div>
                 <div className='second-box'>
                     <CircleArea icon={faBookOpenReader}
                         text="STEP6. 운영교육" />
                     <CircleArea icon={faBullhorn}
-                        text="STEP7. 오픈 홍보 계획 수립" />
+                        text="STEP7. 오픈 홍보" />
                     <CircleArea icon={faHouseCircleCheck}
                         text="STEP8. 매장 오픈!" />
                     <CircleArea icon={faCamera}
-                        text="STEP9. 지속적인 관리" />
+                        text="STEP9. 지속적관리" />
                     <div className='circle-area'>
                         <div className='circle-icon-black'>
                             <img src={process.env.PUBLIC_URL + "/img/img_burger01.png"} alt="" />
@@ -169,7 +171,7 @@ const StartUpInquiry = () => {
                     <p>봉구스밥버거 창업에 관심을 가져주셔서 감사합니다.</p>
                     <p>원활한 상담을 위해 최소한의 개인정보를 수집하고 있습니다.</p>
                 </div>
-                <table>
+                <table className='StartUp-table'>
                     <tbody>
                         <tr>
                             <th>제목</th>
@@ -181,7 +183,7 @@ const StartUpInquiry = () => {
                         </tr>
                         <tr>
                             <th>연락처</th>
-                            <td><input type="tel" className='input-style' name="phoneNumber" id='phoneNumber' /></td>
+                            <td><input type="tel"className='input-style' name="phonenumber" id="phonenumber" title="전화번호를 입력하세요." placeholder="000-0000-0000" pattern="[0-9]{2,3}-[0-9]{3,4}-[0-9]{3,4}" maxlength="13"/></td>
                         </tr>
                         <tr>
                             <th>이메일</th>
@@ -208,6 +210,7 @@ const StartUpInquiry = () => {
                         </tr>
                     </tbody>
                 </table>
+                <button className='StartUpInquiry-button'onClick={show} type="submit">문의하기</button>
             </div>
         </Container>
     )

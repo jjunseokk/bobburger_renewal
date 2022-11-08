@@ -3,7 +3,6 @@ import { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
 import { useNavigate } from 'react-router-dom';
-import Slider from "react-slick";
 
 const Section = () => {
 
@@ -87,7 +86,7 @@ const Section = () => {
             </p>
         </div>
         <div className='video-area'>
-          <iframe width="1000" height="500" src="https://www.youtube.com/embed/X24YQWfSZn8?amp;autoplay=1&mute=1&amp;playlist=X24YQWfSZn8&amp;loop=1" title="[봉구스밥버거] 우리는 봉구스밥버거입니다." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe className='section-video' src="https://www.youtube.com/embed/X24YQWfSZn8?amp;autoplay=1&mute=1&amp;playlist=X24YQWfSZn8&amp;loop=1" title="[봉구스밥버거] 우리는 봉구스밥버거입니다." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
       <div className='section2'>
