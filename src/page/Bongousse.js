@@ -4,6 +4,8 @@ import GalleryBox from '../component/GalleryBox';
 
 const Bongousse = () => {
 
+
+
   return (
     <Container className='bongousse-container'>
       <div className='introduce-area'>

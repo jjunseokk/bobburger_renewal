@@ -1,11 +1,8 @@
 
 .bongousse-container{
     text-align: center;
-    opacity: 0;
-    transition: 1s;
-}
-.bongousse-container.active{
     opacity: 1;
+    transition: 1s;
 }
 .introduce-area{
     padding-bottom: 20px;
