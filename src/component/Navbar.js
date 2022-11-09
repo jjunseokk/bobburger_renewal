@@ -23,9 +23,13 @@ const Navbar = () => {
     setShowMeun(true);
   }
   const [OpenMenu, setOpenMenu] = useState(false);
+  const [OpenMenu1, setOpenMenu1] = useState(false);
 
-  const openMenu = (e) =>{
+  const openMenu = () =>{
     setOpenMenu(OpenMenu => !OpenMenu);
+  }
+  const openMenu1 = () =>{
+    setOpenMenu1(OpenMenu1=> !OpenMenu1)
   }
   const facebookUrl = "https://www.facebook.com/qkqqjrj"
   const youtubeUrl = "https://www.youtube.com/channel/UC5iFrCFDGBlz91LUXgcuS8w"
@@ -54,15 +58,15 @@ const Navbar = () => {
 
       <div className={ShowMenu?'mobile-menu active':'mobile-menu'}>
         <ul className='mobile-menu-ul'>
-          <li className='mobile-menu-li' onClick={(e)=>openMenu(e)}>회사 소개
+          <li className='mobile-menu-li' onClick={openMenu}>회사 소개
             <ul className={OpenMenu? 'mobile-submenu-ul active':'mobile-submenu-ul'}>
               <li><Link to="/Bongousse">봉구스 밥버거</Link></li>
               <li><Link to="/Loadmap">오시는 길</Link></li>
             </ul>
           </li>
           <li className='mobile-menu-li'><Link to="/Menu">메뉴 안내</Link></li>
-          <li className='mobile-menu-li' onClick={openMenu}>창업 안내
-            <ul className={OpenMenu? 'mobile-submenu-ul active':'mobile-submenu-ul'}>
+          <li className='mobile-menu-li' onClick={openMenu1}>창업 안내
+            <ul className={OpenMenu1? 'mobile-submenu-ul active':'mobile-submenu-ul'}>
               <li><Link to="/Founded">창업 비용</Link></li>
               <li><Link to="/StartUpInquiry" >창업 문의</Link></li>
             </ul>

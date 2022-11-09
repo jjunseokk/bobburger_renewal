@@ -110,9 +110,16 @@ body{
         height: 50px;
         width: 900px;
     }
+    .snsBtn{
+        position: absolute;
+        top: 55px;
+        right: 0px;
+        width: 200px;
+        /* border: 1px solid red; */
+    }
 }
 
-@media screen and (max-width : 1024px){
+@media screen and (max-width : 1188px){
     .topMenu{
        display: none;
     }

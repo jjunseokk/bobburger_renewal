@@ -67,7 +67,7 @@
         padding: 20px;
     }
     .gallery_list li{
-        clear: both;
+        /* clear: both; */
         display: inline;
         width: 45%;
         margin: 10px;
